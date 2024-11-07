@@ -23,7 +23,7 @@ window.climateStudioHide = function() {
     height: 200px;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
-    background-image: url("https://climate.studio/homestatic/img/globe_2x.png");
+    background-image: url("https://code.climate.studio/warming_globe.png");
     background-repeat: no-repeat;
     background-position: right; 
     background-size: 100px 200px;

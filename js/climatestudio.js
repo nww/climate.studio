@@ -75,6 +75,6 @@ window.climateStudioHide = function() {
 
 	// Inject DIV
 	var wrapper = document.createElement('div');
-	wrapper.innerHTML = '<a href="https://climate.studio/"><div class="climatestudio-globe"><div class="climatestudio-temperature">+ 1.5°</div></div></a>';
+	wrapper.innerHTML = '<a href="https://climate.studio/"><div class="climatestudio-globe"><div class="climatestudio-temperature">+ 2.6°</div></div></a>';
 	document.body.appendChild(wrapper);
 })();

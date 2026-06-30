@@ -74,6 +74,8 @@ window.climateStudioHide = function() {
 
 	const link = document.createElement('a');
 	link.href = 'https://climate.studio/';
+	link.target = '_blank';
+	link.rel = 'noopener noreferrer';
 	link.setAttribute('aria-label', 'Climate.Studio \u2014 projected warming +2.6\u00B0C');
 	link.appendChild(globe);
 

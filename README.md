@@ -12,7 +12,7 @@ Add the script to any webpage, just before `</body>`:
 <script src="https://code.climate.studio/js/climatestudio.js"></script>
 ```
 
-The globe appears fixed to the right edge of the viewport. Clicking it links to [climate.studio](https://climate.studio/). It scales down automatically on mobile (screens under 600px).
+The globe appears fixed to the right edge of the viewport. Clicking it links to [climate.studio](https://climate.studio/). On mobile (screens under 600px) the globe scales down to 75% and the temperature figure is hidden, leaving just the warming Earth.
 
 ### Hiding the Widget
 

@@ -1,4 +1,4 @@
-/** climate.studio v1.1 | Copyright 2018-2026 Neeley Worldwide Ltd, All Rights Reserved */
+/** climate.studio v1.2 | Copyright 2018-2026 Neeley Worldwide Ltd, All Rights Reserved */
 
 window.climateStudioHide = function() {
 	const banners = document.getElementsByClassName('climatestudio-globe');
@@ -44,6 +44,8 @@ window.climateStudioHide = function() {
     margin-top: -10px;
     right: 6px;
 }
+/* Mobile: shrink the globe to 75% and hide the temperature figure.
+   The link's aria-label still announces the +2.6 degree reading. */
 @media (max-width: 600px) {
     .climatestudio-globe {
         width: 75px;
@@ -54,8 +56,7 @@ window.climateStudioHide = function() {
         margin-top: -78px;
     }
     .climatestudio-temperature {
-        font-size: 20px;
-        margin-top: -10px;
+        display: none;
     }
 }`;
 
